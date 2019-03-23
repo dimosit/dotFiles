@@ -122,4 +122,4 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias vpnff='proxychains firefox'
   alias vpnchrop='proxychains chromium-browser'
 
-  alias testsync='cd test'
+  
