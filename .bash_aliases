@@ -14,7 +14,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias aptin='apt-get install'
   alias aptautoremove='apt-get autoremove'
   alias aptpurg='apt-get remove --purge' #remove package with all config files
-  
+
   #general directory moving
   alias ..='cd ..'
   alias ...='cd ../..'     # Go up two directories
@@ -27,7 +27,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias rmf='rm -rf'
   alias du='du -h' # human-readable sizes
   alias df='df -h' # human-readable sizes
-  alias sizedir='du -hs'  #find the size of a directory 
+  alias sizedir='du -hs'  #find the size of a directory
   alias cp='cp -vi'
   alias mv='mv -vi'
   alias cddelug='cd /var/lib/deluge/Downloads' #cd to deluge folder
@@ -47,13 +47,13 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias cdd='/media/d/DATA/Windows_DATA/Downloads/'
   alias cdwin='cd /media/sf_Windows'
 
- 
-  #Git aliases 
+
+  #Git aliases
   alias gitup='git push -u origin master'
   alias gitcm='git commit -m'
   alias gitadorgin='git remote add origin'
   alias gitadd='git add -A'
-  alias gitpull='git pull master origin' 
+  alias gitpull='git pull master origin'
   alias gitlog='git log'
 
   alias vpn='openvpn --config /home/d/openvpn/client2.ovpn' #for the dual boot Ubuntu
@@ -102,7 +102,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias iftop='iftop -i eth1'
   alias docrun='docker run -it'
   alias docrmImg='docker rmi -f '
-  
+
 
   #request-log-analyzer
   alias loganal='request-log-analyzer'
@@ -122,4 +122,4 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias vpnff='proxychains firefox'
   alias vpnchrop='proxychains chromium-browser'
 
-  
+  alias subl='/opt/sublime/sublime_text'

@@ -24,3 +24,6 @@ export EDITOR=/usr/bin/vim
   export HISTIGNORE="&:ls:bg:fg"
   #export PATH=$PATH:/home/user/progams/logalyzer
   export PATH=$PATH:/home/user/progams/Fail2Ban-Log-Viewer
+
+#sublime text
+export PATH=$PATH:/usr/local/bin/prog/subl/
