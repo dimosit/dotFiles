@@ -19,7 +19,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias ..='cd ..'
   alias ...='cd ../..'     # Go up two directories
   alias ....='cd ../../..' # Go up three directories
-  alias lss='ls -lh --color=auto'
+  alias lss='ls -lah --color=auto'
   alias ls='ls --color=auto'
   alias lt='ls -lAtrh'              # sort by date and human readable
   alias lsz='du -sh * | sort -rh'
@@ -33,7 +33,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias cddelug='cd /var/lib/deluge/Downloads' #cd to deluge folder
   alias grep='grep --color=auto'
     #cd for server 98
-  alias cdtor=' cd /var/www/spot2tube.ml/public_html/tor'
+  alias cdtor=' cd /var/www/spot2tube.ml/public_html/tor/deluge/'
   alias cdnfs='cd /nfs/tor/98'
   alias rmnfs='rm -rf /nfs/tor/98/*'
    #Windows bash cd aliases
