@@ -34,8 +34,8 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias grep='grep --color=auto'
     #cd for server 98
   alias cdtor=' cd /var/www/spot2tube.ml/public_html/tor/deluge/'
-  alias cdnfs='cd /nfs/tor/98'
-  alias rmnfs='rm -rf /nfs/tor/98/*'
+  alias cdnfs='cd /var/www/html/yt/'
+  alias rmnfs='rm -rf /var/www/html/yt/*'
    #Windows bash cd aliases
   alias cdand='cd /c/Users/d/AndroidStudioProjects'
   alias cdlin='cd /d/Windows_DATA/ropbox/Dropbox/Linux/SERVER\ SET\ UP/'
