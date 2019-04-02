@@ -56,7 +56,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias gitpull='git pull master origin'
   alias gitlog='git log'
 
-  alias vpn='openvpn --config /home/d/openvpn/client2.ovpn' #for the dual boot Ubuntu
+  alias vpn98='openvpn --config  /home/d/vpn/snf98d1.ovpn' #for the dual boot Ubuntu
   #encryption decryption fro rClone
   alias renc='ccrypt -e /home/d/.config/rclone/rclone.conf'
   alias rdec='ccrypt -d /home/d/.config/rclone/rclone.conf.cpt'
@@ -78,7 +78,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias apacherestart='sudo /etc/init.d/apache2 restart'
   alias apachestop='sudo /etc/init.d/apache2 stop'
   alias apachestart='sudo /etc/init.d/apache2 start'
-  #OpenVpn Commands
+  #OpenVpn Comma/vpnnds
   alias ropenvpn='systemctl restart openvpn@server'
   alias startopenvpn='systemctl start openvpn@server'
   alias stopopenvpn='systemctl stop openvpn@server'
