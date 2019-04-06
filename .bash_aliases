@@ -46,7 +46,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   #local Mint Box
   alias cdd='/media/d/DATA/Windows_DATA/Downloads/'
   alias cdwin='cd /media/sf_Windows'
-
+  alias zipyout='zip -r /var/www/html/yt/ytb.zip /var/www/html/yt/*'
 
   #Git aliases
   alias gitup='git push -u origin master'
