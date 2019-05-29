@@ -124,3 +124,4 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias vpnchrop='proxychains chromium-browser'
 
   alias subl='/opt/sublime/sublime_text'
+  alias cputemp='watch -n 1 sensors'
