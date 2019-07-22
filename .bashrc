@@ -132,8 +132,8 @@ fi
 
 
 # ------------------------------------------Functions-------------------------------------------------------------------------------------------------
-  # Useful unarchiver! 
-  extract () {                      
+  # Useful unarchiver!
+  extract () {
      if [ -f $1 ] ; then
          case $1 in
              *.tar.bz2)   tar xvjf $1    ;;
@@ -176,9 +176,9 @@ fi
   }
 
   mvlu () {
-    # Mnemonic: Move Verbose Lowercase Underscore 
-    # Rename files to lowercase, replacing spaces with 
-    # underscores, and deleting quotes and control 
+    # Mnemonic: Move Verbose Lowercase Underscore
+    # Rename files to lowercase, replacing spaces with
+    # underscores, and deleting quotes and control
     # characters.
     for filename in "${@}"; do
       mv --verbose -- \
@@ -199,7 +199,7 @@ fi
   # grep "Ban " /var/log/fail2ban.log | grep `date +%Y-%m-%d` | awk '{print $NF}' | sort | awk '{print $1,"("$1")"}' | logresolve | uniq -c | sort -n
 
   #-----Reporting on 'today's activity:
-  # zgrep -h "Ban " /var/log/fail2ban.log* | awk '{print $NF}' | sort | uniq -c 
+  # zgrep -h "Ban " /var/log/fail2ban.log* | awk '{print $NF}' | sort | uniq -c
 
   #Download all the file with directorys from a text list in background
-  #wget -i -r -x -np -R "index.html*" --bqc -i list.txt
+  #wget -i -r -x -np -R "index.html*" --bqc -i list.txtsource ~/.rvm/scripts/rvm
