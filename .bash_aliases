@@ -125,3 +125,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
   alias subl='/opt/sublime/sublime_text'
   alias cputemp='watch -n 1 sensors'
+
+
+  #pihole
+  alias piup='pihole -up'
