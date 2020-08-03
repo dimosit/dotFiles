@@ -116,7 +116,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
 
   #WIFI
-  alias wifilist='nmcli dev wifi list' #list all wifi SSIDs
+  alias wifilist='nmcli -f in-use,ssid,bssid,signal,bars dev wifi' #list all wifi SSIDs
   alias scanlocal='nmap -sP 192.168.1.0/24' #scan  local netowrk 192.168
 
 
