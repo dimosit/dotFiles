@@ -129,3 +129,8 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
   #pihole
   alias piup='pihole -up'
+  
+  
+  #caddy web server run file server @path
+  alias cafiles=caddy file-server  --browse --listen :2015
+
