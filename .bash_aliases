@@ -132,5 +132,5 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   
   
   #caddy web server run file server @path
-  alias cafiles=caddy file-server  --browse --listen :2015
+  alias cafiles='caddy file-server  --browse --listen :2015'
 
