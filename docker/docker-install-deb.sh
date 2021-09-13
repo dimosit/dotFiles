@@ -27,6 +27,7 @@ sudo wget --output-document=/etc/bash_completion.d/docker-compose "https://raw.g
 printf '\nDocker Compose installed successfully\n\n'
 
 
+#Create networks 
 docker network create npm_default
 
 docker network create --driver=bridge --subnet=172.33.0.0/24 vpn
