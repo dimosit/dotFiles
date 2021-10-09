@@ -33,3 +33,4 @@ docker network create npm_default
 docker network create --driver=bridge --subnet=172.33.0.0/24 vpn
 
 
+wget https://raw.githubusercontent.com/51sec/swap/main/swap.sh && bash swap.sh
