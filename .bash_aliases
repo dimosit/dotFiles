@@ -91,10 +91,10 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias rsamba='service smbd restart'
 
     #youtube-dl
-  alias ytmp3='youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0'
-  alias youtube-dl='youtube-dl -ciw'  #https://stackoverflow.com/questions/35982269/youtube-dl-resume-download-after-error
-  alias mkvyout='youtube-dl -f bestvideo+bestaudio --merge-output-format mkv '
-  alias yout='youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4'
+  alias ytmp3='yt-dlp -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0'
+  alias youtube-dl='yt-dlp -ciw'  #https://stackoverflow.com/questions/35982269/youtube-dl-resume-download-after-error
+  alias mkvyout='yt-dlp -f bestvideo+bestaudio --merge-output-format mkv '
+  alias yout='yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4'
 
 
   alias chrop='chromium-browser'
