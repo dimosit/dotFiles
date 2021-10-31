@@ -193,6 +193,10 @@ fi
   }
 
 
+#export path 
+export PATH=$PATH:$HOME/.local/bin
+
+
 # ------------------------------------------Big Commands-------------------------------------------------------------------------------------------------
 
   #-----------------To run this report for all logfiles only a slight change is needed:
