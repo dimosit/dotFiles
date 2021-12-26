@@ -36,6 +36,8 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias cdtor=' cd /var/www/spot2tube.ml/public_html/tor/deluge/'
   alias cdnfs='cd /var/www/html/yt/'
   alias rmnfs='rm -rf /var/www/html/yt/*'
+
+
    #Windows bash cd aliases
   alias cdand='cd /c/Users/d/AndroidStudioProjects'
   alias cdlin='cd /d/Windows_DATA/ropbox/Dropbox/Linux/SERVER\ SET\ UP/'
@@ -43,6 +45,11 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias cdwin='cd /d/Windows_DATA'
   alias cdhot='cd /d/Windows_DATA/autohotkey/Public-AutoHotKey-Scripts-master/'
   alias cdchoco='cd /d/Windows_DATA/Dropbox/Dropbox/windows/chocolatey'
+
+
+
+
+  
   #local Mint Box
   alias cdd='/media/d/DATA/Windows_DATA/Downloads/'
   alias cdwin='cd /media/sf_Windows'
@@ -133,4 +140,13 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   
   #caddy web server run file server @path
   alias cafiles='caddy file-server  --browse --listen :2015'
+
+
+
+
+  #wsl
+  alias cdc='cd /mnt/c/Users/d/'
+  alias cdwind='cd /mnt/d/Windows_DATA'
+
+
 
