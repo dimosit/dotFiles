@@ -40,7 +40,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
    #Windows bash cd aliases
   alias cdand='cd /c/Users/d/AndroidStudioProjects'
-  alias cdlin='cd /d/Windows_DATA/ropbox/Dropbox/Linux/SERVER\ SET\ UP/'
+  alias cdlin='cd /mnt/c/Users/d/Dropbox/Linux/SERVER SET UP/scipts and configuration files'
   alias cdbre='cd /d/Windows_DATA/BreachCompilation'
   alias cdwin='cd /d/Windows_DATA'
   alias cdhot='cd /d/Windows_DATA/autohotkey/Public-AutoHotKey-Scripts-master/'
