@@ -27,6 +27,14 @@ sudo wget --output-document=/etc/bash_completion.d/docker-compose "https://raw.g
 printf '\nDocker Compose installed successfully\n\n'
 
 
+
+#
+sudo usermod -aG docker ${USER}
+su -s ${USER}
+
+#sudo usermod -aG docker $USER
+#sudo reboot
+
 #Create networks 
 docker network create npm_default
 
@@ -34,3 +42,5 @@ docker network create --driver=bridge --subnet=172.33.0.0/24 vpn
 
 
 wget https://raw.githubusercontent.com/51sec/swap/main/swap.sh && bash swap.sh
+
+
