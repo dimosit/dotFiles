@@ -193,7 +193,7 @@ fi
   }
 
 
-#export path 
+#export path
 export PATH=$PATH:$HOME/.local/bin
 
 
@@ -207,3 +207,7 @@ export PATH=$PATH:$HOME/.local/bin
 
   #Download all the file with directorys from a text list in background
   #wget -i -r -x -np -R "index.html*" --bqc -i list.txtsource ~/.rvm/scripts/rvm
+
+
+
+#eval "$(starship init bash)"
