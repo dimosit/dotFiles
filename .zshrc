@@ -112,3 +112,7 @@ setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
 
 source $HOME/.bash_aliases
+
+#Add Starship 
+eval "$(starship init zsh)"
+
