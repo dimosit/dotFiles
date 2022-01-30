@@ -210,4 +210,4 @@ export PATH=$PATH:$HOME/.local/bin
 
 
 
-#eval "$(starship init bash)"
+eval "$(starship init bash)"
