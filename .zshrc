@@ -55,6 +55,11 @@ zstyle ':z4h:ssh-agent:' start yes
 # example. If you don't plan to use Oh My Zsh, delete this line.
 z4h install ohmyzsh/ohmyzsh || return
 
+#plugins
+z4h install MichaelAquilina/zsh-auto-notify || return
+
+
+
 # Install or update core components (fzf, zsh-autosuggestions, etc.) and
 # initialize Zsh. After this point console I/O is unavailable until Zsh
 # is fully initialized. Everything that requires user interaction or can
@@ -75,6 +80,10 @@ z4h source ~/.env.zsh
 # This is just an example that you should delete. It does nothing useful.
 z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
 z4h load   ohmyzsh/ohmyzsh/plugins/emoji-clock  # load a plugin
+
+
+z4h source MichaelAquilina/zsh-auto-notify/auto-notify.plugin.zsh  # source an individual file
+
 
 # Define key bindings.
 z4h bindkey z4h-backward-kill-word  Ctrl+Backspace     Ctrl+H
