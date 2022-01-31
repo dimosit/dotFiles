@@ -58,7 +58,7 @@ z4h install ohmyzsh/ohmyzsh || return
 #plugins
 z4h install MichaelAquilina/zsh-auto-notify || return
 
-z4h install ohmyzsh/sudo
+z4h install ohmyzsh/sudo || return
 
 
 
