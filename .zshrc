@@ -58,6 +58,8 @@ z4h install ohmyzsh/ohmyzsh || return
 #plugins
 z4h install MichaelAquilina/zsh-auto-notify || return
 
+z4h install ohmyzsh/sudo
+
 
 
 # Install or update core components (fzf, zsh-autosuggestions, etc.) and
@@ -83,7 +85,7 @@ z4h load   ohmyzsh/ohmyzsh/plugins/emoji-clock  # load a plugin
 
 
 z4h source MichaelAquilina/zsh-auto-notify/auto-notify.plugin.zsh  # source an individual file
-
+z4h source sohmyzsh/ohmyzsh/udo.plugin.zsh
 
 # Define key bindings.
 z4h bindkey z4h-backward-kill-word  Ctrl+Backspace     Ctrl+H
