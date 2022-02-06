@@ -10,8 +10,13 @@ zstyle ':z4h:' auto-update      'no'
 # Ask whether to auto-update this often; has no effect if auto-update is 'no'.
 zstyle ':z4h:' auto-update-days '28'
 
+
+
 # Start tmux if not already in tmux.
-zstyle ':z4h:' start-tmux       command tmux -u new -A -D -t z4h
+######zstyle ':z4h:' start-tmux       command tmux -u new -A -D -t z4h
+
+
+
 
 # Move prompt to the bottom when zsh starts and on Ctrl+L.
 zstyle ':z4h:' prompt-at-bottom 'yes'

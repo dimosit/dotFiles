@@ -211,3 +211,7 @@ export PATH=$PATH:$HOME/.local/bin
 
 
 eval "$(starship init bash)"
+
+  export PATH="${PATH}:/home/d/.cargo/bin/navi"
+
+  export PATH="${PATH}:/root/.cargo/bin/navi"

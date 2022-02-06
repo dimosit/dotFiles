@@ -49,7 +49,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
 
 
-  
+
   #local Mint Box
   alias cdd='/media/d/DATA/Windows_DATA/Downloads/'
   alias cdwin='cd /media/sf_Windows'
@@ -101,7 +101,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
   alias ytmp3='yt-dlp -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0'
   alias youtube-dl='yt-dlp -ciw'  #https://stackoverflow.com/questions/35982269/youtube-dl-resume-download-after-error
   alias mkvyout='yt-dlp -f bestvideo+bestaudio --merge-output-format mkv '
-  alias yout='yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4'
+  #alias yout='yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4'
 
 
   alias chrop='chromium-browser'
@@ -136,8 +136,8 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
   #pihole
   alias piup='pihole -up'
-  
-  
+
+
   #caddy web server run file server @path
   alias cafiles='caddy file-server  --browse --listen :2015'
 

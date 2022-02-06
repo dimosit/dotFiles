@@ -1,6 +1,8 @@
 #!/bin/bash
 
+#Install Starship 
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+
 
 echo Installing ZSH 
 apt install zsh -y
@@ -8,7 +10,6 @@ apt install zsh -y
 
 
 echo Install navi 
-
 bash <(curl -sL https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install)
 
 
