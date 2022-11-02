@@ -108,9 +108,12 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
   alias ports='netstat -tulanp'
   alias iftop='iftop -i eth1'
+
+
+  #docker commands 
   alias docrun='docker run -it'
   alias docrmImg='docker rmi -f '
-
+  alias dockstats='docker stats --all --format "table {{.ID}}\t{{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"'  #show container CPU & mem usage
 
   #request-log-analyzer
   alias loganal='request-log-analyzer'
