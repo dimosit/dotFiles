@@ -30,4 +30,7 @@ else
     sudo apt update && sudo apt -y install vim-scripts
 fi
 
+
+sudo apt install tldr autojump htop bmon ranger -y
+
 echo "Installed"
