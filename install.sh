@@ -31,6 +31,6 @@ else
 fi
 
 
-sudo apt install tldr autojump htop bmon ranger -y
+sudo apt install tldr autojump htop bmon ranger git vim 7za bat ttyplot -y
 
 echo "Installed"
