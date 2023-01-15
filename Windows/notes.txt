@@ -1,0 +1,15 @@
+# Windows Terminal/Powershell Intellisense Auto-complete
+**run as admin
+
+Install-Module PSReadLine -AllowPrerelease -Force
+
+
+
+# windows terminal settings 
+C:\Users\d\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState
+
+
+
+
+#Profile path 
+C:\Users\d\Documents\WindowsPowerShell
