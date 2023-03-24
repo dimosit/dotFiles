@@ -1,4 +1,5 @@
 #autocomplete
+#https://kevinlinxc.medium.com/how-hard-could-installing-autocomplete-for-powershell-be-4c8a2cbc69be
 # Install-Module PSReadLine -AllowPrerelease -Force  run as admin to install fist time 
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
