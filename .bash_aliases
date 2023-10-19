@@ -153,7 +153,7 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
 
 
-  #laptop graphics card switcher
+  #configure switchable graphics on laptop
   
   #Switch to integrated GPU 
   alias setIntel='sudo envycontrol -s integrated'
