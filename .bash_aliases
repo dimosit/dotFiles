@@ -153,5 +153,19 @@ alias yams='find . -type f -name "*.yml*" | sed "s|\./||g" | egrep -v "(\.kitche
 
 
 
-  #test
+  #laptop graphics card switcher
+  
+  #Switch to integrated GPU 
+  alias setIntel='sudo envycontrol -s integrated'
+
+  #Set hybrid mode and enable fine-grained power control
+  alias setHmp='sudo envycontrol -s hybrid --rtd3'
+
+  #Switch to NVIDIA and enable ForceCompositionPipeline in case of screen tearing
+  alias setNv='sudo envycontrol -s nvidia --force-comp'
+
+  #To verify which graphics card in active, either run command:
+  alias checkGp='glxinfo |grep -E "OpenGL vendor|OpenGL renderer" && envycontrol --query'
+  
+
 
