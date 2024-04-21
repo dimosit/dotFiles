@@ -136,4 +136,5 @@ source $HOME/.bash_aliases
 
 #Add Starship 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
