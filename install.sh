@@ -7,7 +7,8 @@ sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo Installing ZSH 
 apt install zsh -y
 
-
+echo install zoxide
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 
 echo Install navi 
 bash <(curl -sL https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install)
@@ -31,6 +32,6 @@ else
 fi
 
 
-sudo apt install tldr autojump htop bmon ranger git vim bat -y
+sudo apt install tldr autojump htop bmon ranger git vim bat ncdu fzf tmux -y
 
 echo "Installed"
