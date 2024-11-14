@@ -12,6 +12,8 @@ apt install zsh -y
 echo Install navi 
 bash <(curl -sL https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install)
 
+bash -c "$(curl -sLo- https://superfile.netlify.app/install.sh)"
+
 
 # Find all dot files then if the original file exists, create a backup
 # Once backed up to {file}.dtbak symlink the new dotfile in place
